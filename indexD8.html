@@ -14,7 +14,31 @@
     <link rel="stylesheet" href="styleD8.css" />
   </head>
   <body>
-    <h2 class="EX-headers">EXECISE 1</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand text-white" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h2 class="EX-headers mb-40">Exercise 1</h2>
     <div class="container" id="exer-one">
       <div class="boxes" id="green-box">
         <p>
@@ -41,7 +65,10 @@
       <div class="card">
         <div class="card-header">Free</div>
         <div class="card-body">
-          <h5 class="card-title">€0 / mo</h5>
+          <h5 class="card-title">
+            €0
+            <p class="text-muted d-inline">/ mo</p>
+          </h5>
           <p class="card-text">
             10 Users included <br />
             2GB of storage <br />@email Support <br />
@@ -54,7 +81,10 @@
       <div class="card">
         <div class="card-header">Pro</div>
         <div class="card-body">
-          <h5 class="card-title">€15 / mo</h5>
+          <h5 class="card-title">
+            €15
+            <p class="text-muted d-inline">/ mo</p>
+          </h5>
           <p class="card-text">
             20 Users included <br />
             10GB of storage <br />
@@ -68,10 +98,13 @@
       <div class="card">
         <div class="card-header">Enterprise</div>
         <div class="card-body">
-          <h5 class="card-title">€29 / mo</h5>
+          <h5 class="card-title">
+            €29
+            <p class="text-muted d-inline">/ mo</p>
+          </h5>
           <p class="card-text">
             30 Users included <br />
-            15GB of storage <br />Phone and Priority email Support <br />
+            15GB of storage <br />Phone and email Support <br />
             Help center access
           </p>
           <a href="#" class="btn btn-primary">Contact us</a>

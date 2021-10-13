@@ -4,6 +4,7 @@
 
 h2 {
   text-align: center;
+  margin: 30px;
 }
 
 #exer-one {
@@ -14,12 +15,12 @@ h2 {
   flex-direction: row;
   border-radius: 46px;
   overflow: hidden;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 #green-box {
   background-color: rgb(51, 185, 51);
-  border-right: px solid black;
+  border-right: 2px solid black;
   height: 100%;
   width: 50%;
   justify-content: center;
@@ -98,4 +99,24 @@ h2 {
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+
+h5 {
+  font-size: 40px;
+}
+.text-muted {
+  font-size: x-large;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-header {
+  font-size: 20px;
+  text-align: center;
+}
+
+.navbar {
+  padding-left: 10%;
 }
